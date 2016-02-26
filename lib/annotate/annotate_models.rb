@@ -672,7 +672,7 @@ module AnnotateModels
       end
       [rest_cols, timestamps, associations].each {|a| a.sort_by!(&:name) }
 
-      return ([id] << rest_cols << timestamps << associations).flatten
+      return ([id] << rest_cols << timestamps << associations).flatten.compact
     end
 
     # Ignore warnings for the duration of the block ()
