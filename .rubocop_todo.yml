@@ -105,7 +105,7 @@ Metrics/BlockNesting:
 
 # Offense count: 9
 Metrics/CyclomaticComplexity:
-  Max: 36
+  Max: 37
 
 # Offense count: 380
 # Configuration parameters: AllowHeredoc, AllowURI, URISchemes, IgnoreCopDirectives, IgnoredPatterns.
@@ -117,6 +117,11 @@ Metrics/LineLength:
 # Configuration parameters: CountComments.
 Metrics/MethodLength:
   Max: 75
+
+# Offense count: 1
+# Configuration parameters: CountComments.
+Metrics/ModuleLength:
+  Max: 116
 
 # Offense count: 7
 Metrics/PerceivedComplexity:
